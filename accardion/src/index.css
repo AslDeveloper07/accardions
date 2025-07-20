@@ -1,57 +1,12 @@
-.super-accordion {
-  max-width: 1200px;
-  width: 100%;
-  margin: 20px auto;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: all 0.3s ease;
-
-  .accordion-header {
-    width: 100%;
-    background: linear-gradient(135deg, #e0f7fa, #ffe0f0);
-    padding: 24px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: "Poppins", sans-serif;
-    transition: background 0.4s ease;
-
-    h4 {
-      margin: 0;
-      font-size: 1.3rem;
-      font-weight: 600;
-      color: #333;
-    }
-
-    svg {
-      fill: #444;
-      transition: transform 0.3s ease;
-    }
-
-    &:hover {
-      background: linear-gradient(135deg, #d0f0ff, #ffdae6);
-    }
-  }
-
-  .accordion-body {
-    overflow: hidden;
-  }
-
-  .accordion-content {
-    padding: 24px 30px;
-    background: #ffffffd6;
-    font-size: 1rem;
-    color: #444;
-    font-family: "Poppins", sans-serif;
-    line-height: 1.7;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-  }
+*{
+  margin: 40px 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.accardion{
+  background-color: red;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
 }

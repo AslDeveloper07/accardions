@@ -1,8 +1,9 @@
+import Accordion from "./components/Accordion ";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+  <div>accardioncha</div>
+  );
+};
 
-export default App
+export default App;

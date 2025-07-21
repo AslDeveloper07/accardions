@@ -20,7 +20,7 @@ const data = [
 
 
 
-const Accordion = () => { 
+const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -39,6 +39,8 @@ const Accordion = () => {
               justifyContent: "space-between",
               alignItems: "center",
               cursor: "pointer",
+              fontSize: 14,
+              fontWeight: 400,
               padding: "12px 20px",
               background: "#f0f0f0",
               borderRadius: "8px",
@@ -60,7 +62,7 @@ const Accordion = () => {
                   open: { opacity: 1, height: "auto" },
                   collapsed: { opacity: 0, height: 0 },
                 }}
-                transition={{ duration: 0.3, ease: "easeInOut" }}
+                transition={{ duration: 0.2, ease: "easeInOut" }}
                 style={{
                   overflow: "hidden",
                   padding: "0 20px",

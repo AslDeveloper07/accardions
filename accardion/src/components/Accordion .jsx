@@ -20,7 +20,7 @@ const data = [
 
 
 
-const Accordion = () => {
+const Accordion = () => { 
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {

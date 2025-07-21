@@ -15,6 +15,30 @@ const data = [
   {
     title: "Accordion qanday ishlaydi?",
     content: "Accordion har bir item uchun holatni saqlaydi va shunga qarab kontentni ochib-yopadi."
+  },
+   {
+    title: "Nima uchun React ishlatiladi?",
+    content: "React UI yaratishda komponentlarga asoslangan, qayta foydalanish mumkin bo‘lgan tuzilmani beradi."
+  },
+  {
+    title: "Framer Motion nima qiladi?",
+    content: "Framer Motion - React ilovalari uchun kuchli, qulay animatsiya kutubxonasi."
+  },
+  {
+    title: "Accordion qanday ishlaydi?",
+    content: "Accordion har bir item uchun holatni saqlaydi va shunga qarab kontentni ochib-yopadi."
+  },
+   {
+    title: "Nima uchun React ishlatiladi?",
+    content: "React UI yaratishda komponentlarga asoslangan, qayta foydalanish mumkin bo‘lgan tuzilmani beradi."
+  },
+  {
+    title: "Framer Motion nima qiladi?",
+    content: "Framer Motion - React ilovalari uchun kuchli, qulay animatsiya kutubxonasi."
+  },
+  {
+    title: "Accordion qanday ishlaydi?",
+    content: "Accordion har bir item uchun holatni saqlaydi va shunga qarab kontentni ochib-yopadi."
   }
 ];
 
